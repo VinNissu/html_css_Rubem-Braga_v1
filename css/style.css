@@ -1,60 +1,157 @@
 /* reset padrões */
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;}
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+
 /* Ordem tags */
 
-
-body{
-	font-family: 'Barlow', sans-serif;
-	
+body {
+    font-family: 'Barlow', sans-serif;
 }
 
-h1,h2,h3,h4,h5,h6{
-	font-family: 'Lobster Two', cursive;	
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Lobster Two', cursive;
 }
 
-img{
-	width: 100%;
+img {
+    width: 100%;
 }
 
-.ico-logo{
-	width: 50px;
-	margin:0 20px 0 5px;	
+header {
+    display: flex;
+    background-color: lightblue;
+    padding: 10px;
 }
 
-nav ul li, nav ul li a{
-	display: inline-block;
-	width: fit-content;
-	height: 30px;
-	margin-bottom: 4px;
-	padding: 8px;
+header h1 {
+    width: 20%;
 }
 
-nav ul li a{
-	text-decoration: none;
-	background-color: #000;
-	color: #fff;
-	/* text-indent: 40px; */
-	line-height: 30px;
+header nav {
+    width: 80%;
 }
-nav ul li a:hover{
-	background-color: rgb(255, 255, 255);
-	color: rgb(0, 0, 0);
+
+nav ul {
+    padding: 0;
+    list-style-type: none;
+    text-align: right;
+}
+
+nav ul li,
+nav ul li a {
+    display: inline-block;
+    width: fit-content;
+    height: 30px;
+    margin-bottom: 4px;
+    padding: 8px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    background-color: #000;
+    color: #fff;
+    /* text-indent: 40px; */
+    line-height: 30px;
+}
+
+nav ul li a:hover {
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+}
+
+.ico-logo {
+    width: 50px;
+    margin: 0 20px 0 5px;
 }
