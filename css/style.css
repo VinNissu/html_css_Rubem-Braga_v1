@@ -171,6 +171,14 @@ main aside h2{
     font-size: 15px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 } 
+main section p{
+    font-family: 'Vollkorn', serif;
+    font-size: 20px;
+}
+main section ul li{
+    font-family: 'Vollkorn', serif;
+    font-size: 20px;
+}
 main section h2{
     font-size: 30px;
 }
