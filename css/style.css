@@ -167,6 +167,10 @@ main{
     margin: 0 auto;
     margin: top 20px;
 }
+main aside p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
 main aside h2{
     font-size: 15px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -180,10 +184,14 @@ main section ul li{
     font-size: 20px;
 }
 main section h2{
-    font-size: 30px;
+    font-size: 50px;
 }
 main section h3{
-    text-align: center;
+    text-align: left;
+    font-size: 40px;
+}
+main section li{
+    list-style:decimal;
 }
 aside{
     width: 25%;
