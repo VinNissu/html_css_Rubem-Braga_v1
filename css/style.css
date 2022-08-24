@@ -94,6 +94,7 @@ video {
 
 body {
     font-family: 'Barlow', sans-serif;
+    background-color: rgba(61, 70, 202, 0.815);
 }
 
 h1,
@@ -109,14 +110,16 @@ img {
     width: 100%;
 }
 
+
+
 header {
     display: flex;
-    background-color: lightblue;
+    background-color: rgb(233, 233, 233);
     padding: 10px;
 }
 
 header h1 {
-    width: 20%;
+    min-width:20%;
 }
 
 header nav {
@@ -149,6 +152,32 @@ nav ul li a {
 nav ul li a:hover {
     background-color: rgb(255, 255, 255);
     color: rgb(0, 0, 0);
+}
+main{
+    display:flex;
+    /* vh corresponde a % da tela do dispositivo, 90vh = 90% da altura 
+    da tela */
+    min-height: 80vh;
+    justify-content: space-between;
+    width: 90%;
+    margin: 0 auto;
+    margin: top 20px;
+}
+
+aside{
+    width: 25%;
+    padding: 15px;
+    background-color: rgb(233, 233, 233);
+}
+
+footer p {
+    text-align: center;
+}
+
+.conteudo{
+    width:70%;
+    padding: 10px;
+    background-color:whitesmoke ;
 }
 
 .ico-logo {
