@@ -94,7 +94,7 @@ video {
 
 body {
     font-family: 'Barlow', sans-serif;
-    background-color: rgba(61, 70, 202, 0.815);
+    background-color: whitesmoke;
 }
 
 h1,
@@ -110,7 +110,9 @@ img {
     width: 100%;
 }
 
-
+h2{
+    text-align: center;
+}
 
 header {
     display: flex;
@@ -119,17 +121,19 @@ header {
 }
 
 header h1 {
-    min-width:20%;
+    width:60%;
+    font-size: 35px;
 }
 
 header nav {
-    width: 80%;
+    width: 50%;
+
 }
 
 nav ul {
     padding: 0;
     list-style-type: none;
-    text-align: right;
+    text-align: center;
 }
 
 nav ul li,
@@ -159,19 +163,36 @@ main{
     da tela */
     min-height: 80vh;
     justify-content: space-between;
-    width: 90%;
+    width: 100%;
     margin: 0 auto;
     margin: top 20px;
 }
-
+main aside h2{
+    font-size: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+} 
+main section h2{
+    font-size: 30px;
+}
+main section h3{
+    text-align: center;
+}
 aside{
     width: 25%;
     padding: 15px;
     background-color: rgb(233, 233, 233);
+    
 }
 
-footer p {
-    text-align: center;
+footer h2{
+    text-align: left;
+    color: rgb(0, 0, 0);
+} 
+p{  
+    margin: 10px;
+}
+ul{
+    margin: 10px;
 }
 
 .conteudo{
@@ -181,6 +202,23 @@ footer p {
 }
 
 .ico-logo {
-    width: 50px;
+    width: 70px;
     margin: 0 20px 0 5px;
+}
+
+.content-container {
+    background-color: whitesmoke;
+    width: 70%;
+    margin-top: 700px;
+    margin-left: 15%;
+    padding: 20px;
+    border: 10px;
+}
+
+.avatar {
+    width: 420px;
+    border: rgb(26, 26, 0) 5px solid;
+    border-radius: 35%;
+    box-shadow: gray 5px 5px 5px;
+
 }
