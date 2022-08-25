@@ -118,12 +118,14 @@ h2{
 
 header {
     position:fixed;
+    bottom: 980px;
     top:0;
+
 
     width: 100%;
     display: flex;
     justify-content: space-between;
-    padding: 10px 0 10px 0;
+    padding: 0 0 10px 0;
     box-shadow: rgb(26, 24, 29) 0 5px 5px;
     background-color: rgb(233, 233, 233);
     
@@ -177,6 +179,14 @@ main{
     margin: 0 auto;
     margin: top 20px;
 }
+
+main aside {
+    margin-top: -20px;
+
+
+}
+
+
 main aside p{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 
@@ -185,6 +195,12 @@ main aside h2{
     font-size: 15px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 } 
+
+main section {
+    margin-top: 10px;
+
+
+}
 main section p{
     font-family: 'Vollkorn', serif;
     font-size: 20px;
@@ -192,7 +208,7 @@ main section p{
 main section ul li{
     font-family: 'Vollkorn', serif;
     font-size: 20px;
-    list-style: nonel;
+    list-style: none;
 }
 main section h2{
     font-size: 50px;
@@ -271,10 +287,12 @@ ul{
 }
 
 .avatar {
+    padding: 3px;
     width: 430px;
     border: rgb(26, 26, 0) 5px solid;
     border-radius: 35%;
     box-shadow: gray 5px 5px 5px;
+    background-color: #f90;
 }
 
 
@@ -312,5 +330,8 @@ ul{
 }
 
 #header-rubem{
-    margin-left: 137px;
+    margin-left: 135px;
+    margin-top: -20px;
+
+
 }
