@@ -118,7 +118,7 @@ h2{
 
 header {
     position:fixed;
-    bottom: 980px;
+    bottom: 850px;
     top:0;
 
 
@@ -330,8 +330,9 @@ ul{
 }
 
 #header-rubem{
-    margin-left: 135px;
-    margin-top: -20px;
+    margin-left: 105px;
+    margin-top: -50px;
+    bottom: 50px;
 
 
 }
