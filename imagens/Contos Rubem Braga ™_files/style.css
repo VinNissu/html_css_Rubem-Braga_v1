@@ -323,7 +323,7 @@ a:hover {
     border: #f90;
 }
 
-.fechar{
+.modal .fechar{
     position:absolute;
     right: 10px;
     top: 4px;
@@ -332,9 +332,7 @@ a:hover {
     padding: 2px;
     background-color: red;
     color:#FFF;
-    text-align: center;    
-    cursor:pointer;
-
+    text-align: center;
 }
 
 #img-mae{
@@ -373,7 +371,7 @@ a:hover {
     .menu-hamburguer{
         width:50px;
         cursor:pointer;
-        display: block;
+        display: none;
     }
     .menu-phone{
 		position: fixed;
