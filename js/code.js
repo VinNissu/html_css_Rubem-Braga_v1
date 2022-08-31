@@ -7,8 +7,8 @@ const txtData = tempo.getFullYear() + '/' + tempo.getHours() + '/' + tempo.getMi
 
 //elementos dom 
 const spanData = document.getElementById('data')
-const btFechar = document.getElementById('btFechar')
-const divModal = document.getElementById('divModal')
+
+
 const btHamburguer = document.getElementById('btHamburguer')
 const navPhone = document.getElementById('navPhone')
 const btFecharMenu = document.getElementById('btFecharMenu')
@@ -19,11 +19,6 @@ spanData.innerText = txtData;
 
 //ao clicar no id "btFechar"
 
-btFechar.addEventListener('click', function () {
-    //oculta o modal*
-    divModal.style.display = 'none';
-})
-
 btHamburguer.addEventListener('click', function () {
     navPhone.style.display = 'block';
 })
@@ -31,3 +26,4 @@ btHamburguer.addEventListener('click', function () {
 btFecharMenu.addEventListener('click', function (){
     navPhone.style.display = 'none';
 })
+
