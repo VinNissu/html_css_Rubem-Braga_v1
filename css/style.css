@@ -339,9 +339,6 @@ a:hover {
 
 }
 
-#img-mae{
-    margin-top: -350px;
-}
 
 #header-rubem{
     margin-left: 103px;
@@ -374,11 +371,15 @@ a:hover {
         margin-left:20px;
     }
 
-  
-    
+    main section figure{
+        margin-top:5px;
+        margin-bottom: -150px;
+    }
+
     aside, .conteudo-home, .conteudo{
         width:90%;
         padding-top: 3px;
+        background-color: tomato;
 
     }
         nav{
