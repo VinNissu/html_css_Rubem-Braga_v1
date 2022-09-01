@@ -120,6 +120,10 @@ img {
 h2{
     text-align: center;
 }
+h6{
+    text-align: center;
+    color: white;
+}
 
 header {
 
@@ -128,9 +132,9 @@ header {
     justify-content: space-between;
     padding: 0 0 px 0;
     box-shadow: rgb(26, 24, 29) 0 5px 5px;
-    background-color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
     z-index:1000;
-    color: #fff;
+    color: rgb(0, 0, 0);
     
 }
 
@@ -161,8 +165,8 @@ nav ul li a {
 
 nav ul li a {
     text-decoration: none;
-    background-color: rgb(255, 255, 255);
-    color: rgb(0, 0, 0);
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
     /* text-indent: 40px; */
     line-height: 30px;
 }
@@ -246,19 +250,21 @@ a{
     color: tomato;
 }
 
+
+
 a:hover {
     color: rgb(0, 0, 0);
     background-color: rgb(98, 0, 255);
     text-decoration: nome;}
-
+   
 
 .conteudo, .conteudo-home{
     width:85%;
     padding-top: 10px;
     padding-left: 2px;
     padding-right: 2px;
-    background-color:rgb(3, 1, 1);
-    color: bisque;
+    background-color:tomato;
+    color: rgb(0, 0, 0);
 }
 .conteudo-home{
     display: flex;
@@ -345,6 +351,9 @@ a:hover {
 
 }
 
+#data{
+    color: white;
+}
 
 #header-rubem{
     margin-left: 103px;
