@@ -371,6 +371,10 @@ a:hover {
         margin-left:20px;
     }
 
+    main aside{
+        margin-left: 6px;
+    }
+
     main section figure{
         margin-top:5px;
         margin-bottom: -150px;
