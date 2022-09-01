@@ -128,8 +128,9 @@ header {
     justify-content: space-between;
     padding: 0 0 px 0;
     box-shadow: rgb(26, 24, 29) 0 5px 5px;
-    background-color: rgb(233, 233, 233);
+    background-color: rgb(0, 0, 0);
     z-index:1000;
+    color: #fff;
     
 }
 
@@ -160,15 +161,15 @@ nav ul li a {
 
 nav ul li a {
     text-decoration: none;
-    background-color: #000;
-    color: #fff;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
     /* text-indent: 40px; */
     line-height: 30px;
 }
 
 nav ul li a:hover {
-    background-color: rgb(255, 255, 255);
-    color: rgb(0, 0, 0);
+    background-color: tomato;
+    color: black;
 }
 main{
     display:flex;
@@ -200,6 +201,7 @@ main aside h2{
 main section {
     margin-top: 10px;
     background-color: black;
+    margin-right: 10px;
 
 }
 main section p{
@@ -245,21 +247,25 @@ a{
 }
 
 a:hover {
-    color: white;
+    color: rgb(0, 0, 0);
     background-color: rgb(98, 0, 255);
     text-decoration: nome;}
 
 
 .conteudo, .conteudo-home{
     width:85%;
-    padding: 1px;
-    background-color:rgb(216, 201, 201) ;  
+    padding-top: 10px;
+    padding-left: 2px;
+    padding-right: 2px;
+    background-color:rgb(3, 1, 1);
+    color: bisque;
 }
 .conteudo-home{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
 }
+
 
 /* .conteudo-home{
     display: flex;
@@ -365,7 +371,27 @@ a:hover {
         width: 100%;
         flex-direction: column-reverse;
         justify-content: left;
+        
     }
+    header {
+
+        box-shadow: rgb(26, 24, 29) 0 5px 5px;
+        background-color: rgb(236, 236, 236);
+        color: rgb(0, 0, 0);
+        
+    }
+    nav ul li a {
+        text-decoration: none;
+        background-color: tomato;
+        color: rgb(0, 0, 0);
+        /* text-indent: 40px; */
+        line-height: 30px;
+    }
+    nav{
+        background-color: aqua;
+    }
+    nav ul {background-color: black;}
+
     
     main section{
         margin-left:20px;
@@ -384,13 +410,13 @@ a:hover {
         width:90%;
         padding-top: 3px;
         background-color: tomato;
+        color: black;
 
     }
         nav{
             display: none;
     }
-    
-    
+
     .menu-hamburguer{
         width:50px;
         cursor:pointer;
@@ -408,6 +434,7 @@ a:hover {
 	.menu-phone ul{
 		padding: 0;
 		list-style: none;
+
         
 	}
 	.menu-phone ul li, .menu-phone ul li a{
@@ -416,7 +443,7 @@ a:hover {
 		margin: 0;
 		padding: 0;
 		text-align: left;
-		margin-bottom: 2px;
+
 		text-indent: 10px;
         z-index:1000;
 	}
